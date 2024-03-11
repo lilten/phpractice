@@ -1,10 +1,15 @@
 <?php
-echo "Hello, Anna";
 
+$greeting = "Hello";
+$name = "Anna";
+echo "{$greeting},{$name}<br>";
 
-echo "<br>\"Аптеку позабудь ты для венков лавровых И не мори больных,но усыпляй здоровых.\"";
+$firstLine = "\"Аптеку позабудь ты для венков лавровых <br>";
+$secondLine = "И не мори больных,но усыпляй здоровых.\"<br>";
+echo "{$firstLine} {$secondLine}";
 
 $a = 60;
 $b = 60;
 $res = $a * $b;
-echo "<br>В часе $res минут";
+
+echo "В часе $res минут";
